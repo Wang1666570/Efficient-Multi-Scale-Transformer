@@ -35,7 +35,7 @@ pip install -r requirements.txt
   - Download from [Papers with Code](https://paperswithcode.com/sota/image-dehazing-on-reside-6k) or other official sources.
   - Organize the dataset directory as follows:
     ```
-    D:/workspace/dehaze_dataset/
+    ./dehaze_dataset/
       └─ RESIDE-6K/
           ├─ train/
           └─ test/
@@ -95,18 +95,19 @@ Below is a quantitative comparison of different methods on various **SOTS** data
 
 | Method         | SOTS-Indoor (PSNR) | SOTS-Indoor (SSIM) | SOTS-Outdoor (PSNR) | SOTS-Outdoor (SSIM) | SOTS-mix (PSNR) | SOTS-mix (SSIM) |
 |----------------|--------------------|--------------------|---------------------|---------------------|----------------|----------------|
-| DCP [4]        | 16.62             | 0.818              | 19.13              | 0.815               | 17.88          | 0.816          |
-| DehazeNet [45] | 19.82             | 0.821              | 24.75              | 0.927               | 21.02          | 0.870          |
-| MSCNN [8]      | 19.84             | 0.833              | 22.06              | 0.908               | 20.31          | 0.857          |
-| AOD-Net [9]    | 20.51             | 0.816              | 24.14              | 0.920               | 20.27          | 0.873          |
-| GFN [46]       | 22.30             | 0.880              | 21.55              | 0.844               | 23.52          | 0.905          |
-| GridDehazeNet [47] | 32.16         | 0.984              | 30.06              | 0.982               | 25.86          | 0.946          |
-| MSBDN [48]     | 33.67             | 0.976              | 32.37              | 0.982               | 28.59          | 0.973          |
-| FFA-Net [48]   | 32.68             | 0.976              | 33.57              | 0.984               | 28.97          | 0.973          |
-| DehazeFormer [25] | 35.15         | 0.989              | 33.71              | 0.982               | 30.36          | 0.973          |
+| DCP        | 16.62             | 0.818              | 19.13              | 0.815               | 17.88          | 0.816          |
+| DehazeNet | 19.82             | 0.821              | 24.75              | 0.927               | 21.02          | 0.870          |
+| MSCNN      | 19.84             | 0.833              | 22.06              | 0.908               | 20.31          | 0.857          |
+| AOD-Net    | 20.51             | 0.816              | 24.14              | 0.920               | 20.27          | 0.873          |
+| GFN       | 22.30             | 0.880              | 21.55              | 0.844               | 23.52          | 0.905          |
+| GridDehazeNet  | 32.16         | 0.984              | 30.06              | 0.982               | 25.86          | 0.946          |
+| MSBDN     | 33.67             | 0.976              | 32.37              | 0.982               | 28.59          | 0.973          |
+| FFA-Net    | 32.68             | 0.976              | 33.57              | 0.984               | 28.97          | 0.973          |
+| DehazeFormer | 35.15         | 0.989              | 33.71              | 0.982               | 30.36          | 0.973          |
 | **Ours**       | **37.49**         | **0.993**          | **34.64**          | **0.984**           | **31.45**      | **0.985**      |
 
 ---
+
 
 ## 6. Contact
 
@@ -115,6 +116,3 @@ For any questions, please contact:
 
 ---
 
-**Disclaimer**:  
-This code is provided for research purposes only. Please review and comply with any relevant licenses and dataset usage policies before use.
-```
