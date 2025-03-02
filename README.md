@@ -3,13 +3,7 @@
 ### 1. Environment
 
 ```bash
-pip install opencv-python==4.5.5.62 \
-            tqdm \
-            pytorch-msssim \
-            timm \
-            tensorboard \
-            tensorboardx \
-            einops
+pip install requirements.txt
 ```
 
 
