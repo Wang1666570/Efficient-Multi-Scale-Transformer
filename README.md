@@ -4,17 +4,19 @@ This repository provides an implementation of our **Efficient Multi-Scale Transf
 
 ---
 
-## Key Features
+## Contribution
 
-- **Multi-Head Convolutional Attention (MHCA):**  A hybrid attention mechanism that combines convolutional feature extraction with self-attention to reduce computational overhead.
+- **MHCA (Multi-Head Convolutional Attention):**  Combines convolutional feature extraction with self-attention for efficiency.
 
-- **Gated Feed-Forward Network (GFFN):**  Enhances spatial feature propagation and suppresses unnecessary haze features.
+- **GFFN (Gated Feed-Forward Network):**  Enhances spatial feature propagation and suppresses unnecessary haze.
 
-- **Multi-Scale Loss Function:**  Integrates perceptual loss and patch-based loss to refine image restoration quality.
+- **Multi-Scale Loss Function:**  Integrates perceptual and patch-based loss for refined restoration.
 
-- **State-of-the-Art Performance:**  Achieves a PSNR of 37.49 dB and SSIM of 0.993 on the SOTS Indoor dataset, outperforming previous dehazing models.
+- **State-of-the-Art Performance:**  Achieves **PSNR 37.49 dB** and **SSIM 0.993** on SOTS Indoor, surpassing previous models.
 
-- **Robust Generalization:**  Demonstrates superior real-world performance on the RTTS dataset.
+- **Strong Generalization:**  Excels in real-world dehazing tasks (RTTS dataset).
+
+![模型框架](https://raw.githubusercontent.com/Wang1666570/Efficient-Multi-Scale-Transformer/main/framework/framework.png)
 
 ---
 
